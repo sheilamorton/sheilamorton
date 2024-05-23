@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sheila's World</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #dcd0ff;
+            color: #4a4a4a;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4a4a4a;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f7f7f7;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .businesses, .contact {
+            margin-bottom: 40px;
+        }
+        .about h2, .businesses h2, .contact h2 {
+            color: #7c77b9;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: #f7f7f7;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Sheila's World</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#businesses">My Businesses</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sheila, the founder of STAY FOCUSED BOX and several other ventures. I am passionate about inspiring women to live their best lives through self-care and motivation. When I'm not working, I enjoy spending time with my family, exploring new hobbies, and indulging in my love for anime. Join me on my journey to make a positive impact in the world!</p>
+    </section>
+
+    <section id="businesses" class="businesses">
+        <h2>My Businesses</h2>
+        <p>I run a self-love and motivational subscription box called STAY FOCUSED BOX, based in Australia. My goal is to reach and inspire as many women as possible through carefully curated boxes that promote self-care and personal growth. Additionally, I manage Ellendale Diamonds Australia, specializing in ethically sourced Australian diamonds and premium jewelry collections.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:sheila@example.com">sheila@example.com</a>. I'd love to hear from you!</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Sheila. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
